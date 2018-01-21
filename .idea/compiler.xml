@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mo-core" />
+        <module name="service-log" />
+        <module name="service-right" />
+        <module name="service-tar" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mo-core" target="1.8" />
+      <module name="module-core" target="1.8" />
+      <module name="module-session" target="1.8" />
+      <module name="service-log" target="1.8" />
+      <module name="service-right" target="1.8" />
+      <module name="service-tar" target="1.8" />
+      <module name="yanxuan-cms" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

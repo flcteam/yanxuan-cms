@@ -1,0 +1,13 @@
+server:
+  port: 8601
+spring:
+  application: service-right
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/yanxuan?useSSL=false
+    username: root
+    password: root
+  aop:
+    auto: true
+    proxy-target-class: false
+

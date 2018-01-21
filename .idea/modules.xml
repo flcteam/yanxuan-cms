@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mo-core/mo-core.iml" filepath="$PROJECT_DIR$/mo-core/mo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-log/service-log.iml" filepath="$PROJECT_DIR$/service-log/service-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-right/service-right.iml" filepath="$PROJECT_DIR$/service-right/service-right.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yanxuan-cms.iml" filepath="$PROJECT_DIR$/yanxuan-cms.iml" />
+    </modules>
+  </component>
+</project>
