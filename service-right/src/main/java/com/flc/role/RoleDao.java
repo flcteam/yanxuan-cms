@@ -39,7 +39,7 @@ public interface RoleDao {
      * @throws Exception
      * return roleid
      */
-    public void saveRole(JSONObject mj) throws Exception;
+    public String saveRole(JSONObject mj) throws Exception;
 
     /**
      * 根据id删除角色

@@ -93,8 +93,12 @@ public class RoleDao_db implements RoleDao {
     /**
      * 保存角色
      */
-    public void saveRole(JSONObject mj) throws Exception {
+    public String saveRole(JSONObject mj) throws Exception {
         String roleid = mj.getString("roleid");
+        if(roleid == null || roleid.equals("")) {
+            roleid = ID.getDUID(IDType.ROLE);
+            mj.put("roleid", roleid);
+        }
         int count = jdbcTemplate.queryForObject("select count(0) from t_role where f_roleid = ?", new Object[] {roleid}, java.lang.Integer.class);
         if(count == 0) {
             if(roleid.equals("")) {
@@ -106,6 +110,7 @@ public class RoleDao_db implements RoleDao {
             String sql = "update t_role set f_name = ?, f_desc = ?, f_modifytime = ? where f_roleid = ?";
             jdbcTemplate.update(sql, mj.getString("name"), mj.getString("desc"), DateUtil.formatDBDate(new Date()), roleid);
         }
+        return roleid;
     }
 
     /**
