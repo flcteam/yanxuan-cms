@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/service-log/pom.xml" />
         <option value="$PROJECT_DIR$/module-core/pom.xml" />
         <option value="$PROJECT_DIR$/service-tar/pom.xml" />
+        <option value="$PROJECT_DIR$/module-base/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

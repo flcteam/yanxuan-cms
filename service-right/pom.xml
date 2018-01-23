@@ -57,7 +57,7 @@
 		<!-- ********************************************************************************** Project Module Dependency-->
 		<dependency>
 			<groupId>com.flc</groupId>
-			<artifactId>mo-core</artifactId>
+			<artifactId>module-base</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

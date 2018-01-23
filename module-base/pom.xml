@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.flc</groupId>
-	<artifactId>mo-core</artifactId>
+	<artifactId>module-base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mo-core</name>
-	<description>mo-core</description>
+	<name>module-base</name>
+	<description>module-base</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -44,11 +44,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+		<!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
 		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>1.2.44</version>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>2.9.9</version>
 		</dependency>
 	</dependencies>
 

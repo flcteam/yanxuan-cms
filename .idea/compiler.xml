@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mo-core" />
+        <module name="module-base" />
         <module name="service-log" />
         <module name="service-right" />
         <module name="service-tar" />
@@ -14,6 +15,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mo-core" target="1.8" />
+      <module name="module-base" target="1.8" />
       <module name="module-core" target="1.8" />
       <module name="module-session" target="1.8" />
       <module name="service-log" target="1.8" />

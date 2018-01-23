@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mo-core/mo-core.iml" filepath="$PROJECT_DIR$/mo-core/mo-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-base/module-base.iml" filepath="$PROJECT_DIR$/module-base/module-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-log/service-log.iml" filepath="$PROJECT_DIR$/service-log/service-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-log/service-log.iml" filepath="$PROJECT_DIR$/service-log/service-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-right/service-right.iml" filepath="$PROJECT_DIR$/service-right/service-right.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-right/service-right.iml" filepath="$PROJECT_DIR$/service-right/service-right.iml" />
       <module fileurl="file://$PROJECT_DIR$/yanxuan-cms.iml" filepath="$PROJECT_DIR$/yanxuan-cms.iml" />
     </modules>
